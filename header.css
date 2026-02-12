@@ -1,0 +1,40 @@
+.header .center {
+    margin: 0 auto;
+    display: flex;
+    background-color: pink;
+    justify-content: space-between;
+    
+}
+.header .center .gnb {
+    margin-right: 125px;
+    font-weight: 800;
+    margin-top: 29px;
+    margin-bottom: 29px;
+}
+.header .center .gnb ul {
+    display: flex;
+    gap: 35px;
+}
+.header .center .gnb li {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.header .center .gnb .gnb_bar {
+    background-color: #1A1A1A;
+    height: 2px;
+    margin-top: 3px;
+
+}
+.header .center .gnb .gnb1 .gnb_bar {
+    width: 99px;
+}
+.header .center .gnb .gnb2 .gnb_bar {
+    width: 107px;
+}
+.header .center .gnb .gnb3 .gnb_bar {
+    width: 90px;
+}
